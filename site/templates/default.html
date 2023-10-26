@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Cass Alexandru"/>
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>$title$</title>
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    </head>
+
+    <body>
+        <div id="content">
+            <article>
+                <h1>$title$</h1>
+                $if(subtitle)$
+                  <h2>$subtitle$</h2>
+                $endif$
+                $if(date)$
+                  <h3 class="numeral">$date$</h3>
+                $endif$
+                <section>
+                    $body$
+                </section>
+            </article>
+        </div>
+    </body>
+
+</html>
