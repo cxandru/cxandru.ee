@@ -39,7 +39,7 @@ all: $(OUT_STYLESHEET) $(OUT_ARTEFACTS) $(OUT_ASSETS) $(OUT_HTML) $(OUT_CNAME)
 .PHONY: deploy clean all
 
 deploy:
-	cd $(OUT_DIR)
-	git add --all
-	git commit -m "Deploy updates"
-	git push origin gh-pages
+	cd $(OUT_DIR) && \
+	 git add --all && \
+	 git commit -m "Deploy updates" && \
+	 git push origin gh-pages
