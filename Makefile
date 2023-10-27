@@ -25,7 +25,7 @@ OUT_FONTS := $(OUT_DIR)/et-book
 
 $(OUT_DIR)/% : $(IN_DIR)/%
 	mkdir -p $(@D)
-	cp -r $^ $@
+	cp -rL $^ $@
 
 # Runtime Convert
 IN_MD := $(shell find $(IN_DIR) -type f -name "*.md")
