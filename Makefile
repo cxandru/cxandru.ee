@@ -20,10 +20,12 @@ IN_STYLESHEET := $(IN_DIR)/stylesheet.css
 OUT_STYLESHEET := $(OUT_DIR)/stylesheet.css
 IN_CNAME := $(IN_DIR)/CNAME
 OUT_CNAME := $(OUT_DIR)/CNAME
+IN_FONTS := $(IN_DIR)/et-book
+OUT_FONTS := $(OUT_DIR)/et-book
 
 $(OUT_DIR)/% : $(IN_DIR)/%
 	mkdir -p $(@D)
-	cp $^ $@
+	cp -r $^ $@
 
 # Runtime Convert
 IN_MD := $(shell find $(IN_DIR) -type f -name "*.md")
@@ -34,7 +36,7 @@ $(OUT_DIR)/%.html: $(IN_DIR)/%.md $(TEMPLATE)
 	$(PANDOC) $< \
 	--output $@
 
-all: $(OUT_STYLESHEET) $(OUT_ARTEFACTS) $(OUT_ASSETS) $(OUT_HTML) $(OUT_CNAME)
+all: $(OUT_FONTS) $(OUT_STYLESHEET) $(OUT_ARTEFACTS) $(OUT_ASSETS) $(OUT_HTML) $(OUT_CNAME)
 
 .PHONY: deploy clean all
 
