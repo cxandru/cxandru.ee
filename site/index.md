@@ -11,7 +11,7 @@ datatype-generic programming, recursion schemes, homotopy type theory, EDSLs, co
 
 I go by `cxandru` on most online forums, and also use the same profile icon everywhere, so I should be relatively easy to spot. My accounts on selected forums:
 
-* Mastodon: [@cxandru@types.pl](https://types.pl/@cxandru)
+* Mastodon: <a rel="me" href="https://types.pl/@cxandru">@cxandru@types.pl</a>
 * Github: [cxandru](https://github.com/cxandru/)
 
 ## Theses
