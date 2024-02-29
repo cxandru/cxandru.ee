@@ -47,6 +47,8 @@ BibLaTex entry:
 
 * ["Structured Traversals for (Mutually) Recursive Algebraic Data Types"](https://munihac.de/2022.html#CassAlexandru). Munihac 2022.
 
+* ["When the Types Align: A coincidence of total and partial correctness with a slice of cubical Agda"](./artefacts/DistrLaw.pdf). [Dutch FP Day 2024](https://www.tudelft.nl/fpday-2024-1).
+
 ## Unpublished Notes
 
 * ["Bialgebraic Semantics, Formalized"](./artefacts/bialgebraic_semantics_report.pdf). 2023.
