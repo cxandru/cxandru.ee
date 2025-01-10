@@ -44,7 +44,17 @@ BibLaTex entry:
         url = {https://www.cs.ru.nl/masters-theses#2023},
         }
 ```
+
+## Papers
+
+* Cass Alexandru, Vikraman Choudhury, Jurriaan Rot, Niels van der Weide: ["Intrinsically Correct Sorting in Cubical Agda"](https://arxiv.org/abs/2412.08362). To appear in CPP 2025.
+
+
 ## Talks
+
+* ["Natural transformations as business logics: An operational intuition"](./artefacts/fpdag25_cxandru.pdf). [FP Dag 2025](https://people.cs.kuleuven.be/~tom.schrijvers/fpdag2025/).
+
+* ["Intrinsically correct sorting using bialgebraic semantics"](https://spli.scot/splv/2024-strathclyde/lightning.html). SPLV 2024 lightning talk.
 
 * ["Structured Traversals for (Mutually) Recursive Algebraic Data Types"](https://munihac.de/2022.html#CassAlexandru). Munihac 2022.
 
