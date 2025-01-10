@@ -31,7 +31,7 @@ BibLaTex entry:
         url = {https://www.sosy-lab.org/research/bib/Year/2019.html#AlexandruLoopContracts}
         }
 ```
-* ["Intrinsically correct sorting using bialgebraic semantics"](https://www.ru.nl/publish/pages/769526/cass.pdf). Master's thesis, Radboud University, 2023.
+* ["Intrinsically correct sorting using bialgebraic semantics"](https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf). Master's thesis, Radboud University, 2023.
 BibLaTex entry:
 ```biblatex
 @thesis{alexandru_intrinsically_2023,
