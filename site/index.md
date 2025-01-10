@@ -17,20 +17,6 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 
 ## Theses
 
-* ["Specifying Loops with Contracts"](https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf). Bachelor's thesis, LMU Munich, 2019.
-BibLaTex entry:
-```biblatex
-@thesis{alexandru_specifying_2019,
-        author = {Alexandru, Cass},
-        title = {Specifying Loops with Contracts},
-        subtitle = {Reasoning about loops as recursive procedures},
-        institution = {LMU Munich},
-        type = {bathesis},
-        year = {2019},
-        file = {https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf},
-        url = {https://www.sosy-lab.org/research/bib/Year/2019.html#AlexandruLoopContracts}
-        }
-```
 * ["Intrinsically correct sorting using bialgebraic semantics"](https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf). Master's thesis, Radboud University, 2023.
 BibLaTex entry:
 ```biblatex
@@ -45,10 +31,24 @@ BibLaTex entry:
         }
 ```
 
+* ["Specifying Loops with Contracts"](https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf). Bachelor's thesis, LMU Munich, 2019.
+BibLaTex entry:
+```biblatex
+@thesis{alexandru_specifying_2019,
+        author = {Alexandru, Cass},
+        title = {Specifying Loops with Contracts},
+        subtitle = {Reasoning about loops as recursive procedures},
+        institution = {LMU Munich},
+        type = {bathesis},
+        year = {2019},
+        file = {https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf},
+        url = {https://www.sosy-lab.org/research/bib/Year/2019.html#AlexandruLoopContracts}
+        }
+```
+
 ## Papers
 
 * Cass Alexandru, Vikraman Choudhury, Jurriaan Rot, Niels van der Weide: ["Intrinsically Correct Sorting in Cubical Agda"](https://arxiv.org/abs/2412.08362). To appear in CPP 2025.
-
 
 ## Talks
 
@@ -56,9 +56,9 @@ BibLaTex entry:
 
 * ["Intrinsically correct sorting using bialgebraic semantics"](https://spli.scot/splv/2024-strathclyde/lightning.html). SPLV 2024 lightning talk.
 
-* ["Structured Traversals for (Mutually) Recursive Algebraic Data Types"](https://munihac.de/2022.html#CassAlexandru). Munihac 2022.
-
 * ["When the Types Align: A coincidence of total and partial correctness with a slice of cubical Agda"](./artefacts/DistrLaw.pdf). [Dutch FP Day 2024](https://www.tudelft.nl/fpday-2024-1).
+
+* ["Structured Traversals for (Mutually) Recursive Algebraic Data Types"](https://munihac.de/2022.html#CassAlexandru). Munihac 2022.
 
 ## Unpublished Notes
 
