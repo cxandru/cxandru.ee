@@ -20,7 +20,7 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 BibLaTex entry:
 ```biblatex
 @thesis{alexandru_specifying_2019,
-        author = {Alexandru, G. C. (Cass)},
+        author = {Alexandru, Cass},
         title = {Specifying Loops with Contracts},
         subtitle = {Reasoning about loops as recursive procedures},
         institution = {LMU Munich},
@@ -34,7 +34,7 @@ BibLaTex entry:
 BibLaTex entry:
 ```biblatex
 @thesis{alexandru_intrinsically_2023,
-        author = {Alexandru, G. C. (Cass)},
+        author = {Alexandru, Cass},
         title = {Intrinsically correct sorting using bialgebraic semantics},
         institution = {Radboud University},
         type = {mathesis},
