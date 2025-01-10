@@ -41,7 +41,7 @@ BibLaTex entry:
         type = {mathesis},
         year = {2023},
         file = {https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf},
-        url = {https://www.cs.ru.nl/masters-theses/#2023},
+        url = {https://www.cs.ru.nl/masters-theses#2023},
         }
 ```
 ## Talks
