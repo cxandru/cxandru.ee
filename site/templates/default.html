@@ -13,7 +13,11 @@
     <body>
         <div id="content">
             <article>
-                <h1>$title$</h1>
+                $if(heading)$
+                  <h1>$heading$</h1>
+                $elseif(title)$
+                  <h1>$title$</h1>
+                $endif$
                 $if(subtitle)$
                   <h2>$subtitle$</h2>
                 $endif$
