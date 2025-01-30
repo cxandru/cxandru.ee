@@ -52,7 +52,7 @@ BibLaTex entry:
 
 ## Talks
 
-* ["Natural transformations as business logics: An operational intuition"](./artefacts/fpdag25_cxandru.pdf). [FP Dag 2025](https://people.cs.kuleuven.be/~tom.schrijvers/fpdag2025/).
+* ["Natural transformations as business logics: An operational intuition"](./artefacts/fpdag25_cxandru.pdf). [FP Dag 2025](https://people.cs.kuleuven.be/~tom.schrijvers/fpdag2025/). [Updated slides](./artefacts/nat_trans_op_sem_v0.1.pdf)
 
 * ["Intrinsically correct sorting using bialgebraic semantics"](https://spli.scot/splv/2024-strathclyde/lightning.html). SPLV 2024 lightning talk.
 
