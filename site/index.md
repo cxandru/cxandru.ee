@@ -8,7 +8,7 @@ My current research topic is the application of categorical semantics of (depend
 I am currently investigating _recursive coalgebras_ and _bialgebraic semantics_.
 
 More broadly, I'm interested in the application of the full breadth of the theoretical arsenal to the problem of ergonomic use of dependently typed programming languages in practice, including but not limited to: <br/>
-datatype-generic programming, recursion schemes, homotopy type theory, EDSLs, compiler construction, decision procedures, SMT, ATPs, proof/program synthesis
+datatype-generic programming, recursion schemes, homotopy and simplicial type theory, substructural type systems, EDSLs, compiler construction, decision procedures, SMT, ATPs, proof/program synthesis
 
 ## Online presence
 
