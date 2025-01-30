@@ -19,7 +19,7 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 
 ## Papers
 
-* Cass Alexandru, Vikraman Choudhury, Jurriaan Rot, Niels van der Weide: ["Intrinsically Correct Sorting in Cubical Agda"](https://arxiv.org/abs/2412.08362). To appear in CPP 2025.
+* Cass Alexandru, Vikraman Choudhury, Jurriaan Rot, Niels van der Weide: ["Intrinsically Correct Sorting in Cubical Agda"](https://dl.acm.org/doi/abs/10.1145/3703595.3705873). CPP 2025.
 
 ## Talks
 
