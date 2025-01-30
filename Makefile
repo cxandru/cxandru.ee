@@ -40,7 +40,7 @@ all: $(OUT_FONTS) $(OUT_STYLESHEET) $(OUT_ARTEFACTS) $(OUT_ASSETS) $(OUT_HTML) $
 
 .PHONY: deploy clean all
 
-deploy:
+deploy: all
 	cd $(OUT_DIR) && \
 	 git add --all && \
 	 git commit -m "Deploy updates" && \
