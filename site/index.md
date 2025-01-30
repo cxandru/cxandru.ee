@@ -1,6 +1,6 @@
 ---
 title: "Cass Alexandru (they/them)"
-heading: '<img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a 3/4ths thicker blue circle forming the letter C" src="./assets/c64_128_alpha.png" style="vertical-align: middle"> Cass Alexandru (they/them)'
+heading: '<img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a thicker blue round letter C" src="./assets/c64_128_alpha.png" style="vertical-align: middle"> Cass Alexandru (they/them)'
 ---
 
 I'm a PhD student at the [Working Group Programming Languages](https://pl.informatik.uni-kl.de/homepage/en/) at the RPTU, supervised by [Ralf Hinze](https://pl.cs.uni-kl.de/homepage/en/staff/RalfHinze/). My current research topic is application of category theory to the design of intrinsically correct algorithms, in particular bialgebraic semantics.
