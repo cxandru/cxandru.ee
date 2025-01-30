@@ -3,7 +3,9 @@ title: "Cass Alexandru (they/them)"
 heading: '<img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a thicker blue round letter C" src="./assets/c64_128_alpha.png" style="vertical-align: middle"> Cass Alexandru (they/them)'
 ---
 
-I'm a PhD student at the [Working Group Programming Languages](https://pl.informatik.uni-kl.de/homepage/en/) at the RPTU, supervised by [Ralf Hinze](https://pl.cs.uni-kl.de/homepage/en/staff/RalfHinze/). My current research topic is application of category theory to the design of intrinsically correct algorithms, in particular bialgebraic semantics.
+I'm a PhD student at the [Working Group Programming Languages](https://pl.informatik.uni-kl.de/homepage/en/staff/CassAlexandru/) at the RPTU Kaiserslautern-Landau, supervised by [Ralf Hinze](https://pl.cs.uni-kl.de/homepage/en/staff/RalfHinze/).
+My current research topic is the application of categorical semantics of (dependent) type theory for writing (intrinsically) correct total algorithms (using structured recursion).
+I am currently investigating _recursive coalgebras_ and _bialgebraic semantics_.
 
 More broadly, I'm interested in the application of the full breadth of the theoretical arsenal to the problem of ergonomic use of dependently typed programming languages in practice, including but not limited to: <br/>
 datatype-generic programming, recursion schemes, homotopy type theory, EDSLs, compiler construction, decision procedures, SMT, ATPs, proof/program synthesis
