@@ -7,8 +7,8 @@ I'm a PhD student at the [Working Group Programming Languages](https://pl.inform
 My current research topic is the application of categorical semantics of (dependent) type theory for writing (intrinsically) correct total algorithms (using structured recursion).
 I am currently investigating _recursive coalgebras_ and _bialgebraic semantics_.
 
-More broadly, I'm interested in the application of the full breadth of the theoretical arsenal to the problem of ergonomic use of dependently typed programming languages in practice, including but not limited to: <br/>
-datatype-generic programming, recursion schemes, homotopy and simplicial type theory, substructural type systems, EDSLs, compiler construction, decision procedures, SMT, ATPs, proof/program synthesis
+More broadly, I'm interested in the application of the full breadth of the theoretical arsenal to the problem of designing theoretically rigorous and ergonomic verified functional programming (meta)-languages, including but not limited to: <br/>
+datatype-generic programming, recursion schemes, homotopy and simplicial type theory, substructural type systems, EDSLs, compiler construction, decision procedures, editor-time codegen/annotation, SMT, ATPs, proof/program synthesis
 
 ## Online presence
 
