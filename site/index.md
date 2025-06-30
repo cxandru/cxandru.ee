@@ -3,7 +3,7 @@ title: "Cass Alexandru (they/them)"
 heading: '<img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a thicker blue round letter C" src="./assets/c64_128_alpha.png" style="vertical-align: middle"> Cass Alexandru (they/them)'
 ---
 
-I'm a PhD student at the [Working Group Programming Languages](https://pl.informatik.uni-kl.de/homepage/en/staff/CassAlexandru/) at the RPTU Kaiserslautern-Landau, supervised by [Ralf Hinze](https://pl.cs.uni-kl.de/homepage/en/staff/RalfHinze/).
+I'm a PhD student at the [Working Group Programming Languages](https://pl.informatik.uni-kl.de/homepage/en/staff/CassAlexandru/) at the RPTU Kaiserslautern-Landau, supervised by [Ralf Hinze](https://pl.cs.uni-kl.de/homepage/en/staff/RalfHinze/). I am co-supervised by [Jurriaan Rot](https://jurriaan.creativecode.org/) and [Niels van der Weide](https://nmvdw.github.io/), both at Radboud University Nijmegen.
 My current research topic is the application of categorical semantics of (dependent) type theory for writing (intrinsically) correct total algorithms (using structured recursion).
 I am currently investigating _recursive coalgebras_ and _bialgebraic semantics_.
 
