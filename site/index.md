@@ -23,6 +23,8 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 
 ## Talks
 
+* ["Intrinsically Recursive Coalgebras"](./artefacts/fpdag26_cxandru.pdf). [FP Dag 2026](https://fpday26.cs.ru.nl/).
+
 * ["Intrinsically Correct Sorting in Cubical Agda"](./artefacts/cpp25_talk_slides.pdf). CPP 2025.
 <!-- TODO: Link Recording once online -->
 
