@@ -4,11 +4,10 @@ heading: '<img alt="The letters 64 in silver characters, around which a silver c
 ---
 
 I'm a PhD student at the [Working Group Programming Languages](https://pl.informatik.uni-kl.de/homepage/en/staff/CassAlexandru/) at the RPTU Kaiserslautern-Landau, supervised by [Ralf Hinze](https://pl.cs.uni-kl.de/homepage/en/staff/RalfHinze/). I am co-supervised by [Jurriaan Rot](https://jurriaan.creativecode.org/) and [Niels van der Weide](https://nmvdw.github.io/), both at Radboud University Nijmegen.
-My current research topic is the application of categorical semantics of (dependent) type theory to writing intrinsically correct total algorithms using structured recursion.
-I am currently investigating _recursive coalgebras_ and _algorithmic duality_.
+My current research topic is the application of categorical semantics of (dependent) type theory to writing intrinsically correct total algorithms using structured recursion. More specifically, I am investigating _recursive coalgebras_ and _algorithmic duality_.
 
-More broadly, I'm interested in the application of the full breadth of the theoretical arsenal to the problem of designing theoretically rigorous and ergonomic verified functional programming (meta)-languages, including but not limited to: <br/>
-datatype-generic programming, recursion schemes, cubical and directed type theory, substructural type systems, EDSLs, compiler construction, decision procedures, editor-time codegen/annotation, SMT, ATPs, proof/program synthesis
+More broadly, I'm interested in the application of the full breadth of the theoretical arsenal to the problem of designing theoretically rigorous and ergonomic verified functional programming languages, including but not limited to: <br/>
+datatype-generic programming, recursion schemes, cubical and directed type theory, substructural type systems, EDSLs, compiler construction, staged compilation, decision procedures, editor-time codegen/annotation, SMT, ATPs, proof/program synthesis
 
 ## Online presence
 
