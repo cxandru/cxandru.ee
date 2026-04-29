@@ -19,6 +19,8 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 
 ## Papers
 
+* Cass Alexandru, Henning Urbat, Thorsten Wißmann : ["Intrinsically Correct Algorithms and Recursive Coalgebras"](https://pldi26.sigplan.org/details/pldi-2026-papers/66/Intrinsically-Correct-Algorithms-and-Recursive-Coalgebras). PLDI 2026.
+
 * Cass Alexandru, Vikraman Choudhury, Jurriaan Rot, Niels van der Weide: ["Intrinsically Correct Sorting in Cubical Agda"](https://dl.acm.org/doi/abs/10.1145/3703595.3705873). CPP 2025.
 
 ## Talks
