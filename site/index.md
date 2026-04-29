@@ -64,6 +64,10 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
   ```
   </details>
 
+## Service
+
+I serve as the main PhD student representative in the RPTU senate for Kaiserslautern in the academic year 2025-26 [(link)](https://web.archive.org/web/20260111235943/https://rptu.de/ueber-die-rptu/organisation/hochschulgremien/doktorandenvertretung). I served as the main PhD student representative for computer science in 2024-25, and again in 2025-26 [(link)](https://www.cs.rptu.de/aktuelles/wahl-dr-2024/).  <!-- I have reviewed submissions for [LICS 2026].-->
+
 ## Unpublished Notes
 
 * ["Bialgebraic Semantics, Formalized"](./artefacts/bialgebraic_semantics_report.pdf). 2023.
