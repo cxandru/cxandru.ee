@@ -41,33 +41,35 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 ## Theses
 
 * ["Intrinsically correct sorting using bialgebraic semantics"](https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf). Master's thesis, Radboud University, 2023.
-BibLaTex entry:
-```biblatex
-@thesis{alexandru_intrinsically_2023,
-        author = {Alexandru, Cass},
-        title = {Intrinsically correct sorting using bialgebraic semantics},
-        institution = {Radboud University},
-        type = {mathesis},
-        year = {2023},
-        file = {https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf},
-        url = {https://www.cs.ru.nl/masters-theses#2023},
-        }
-```
+  <details><summary>BibLaTex</summary>
+  ```biblatex
+  @thesis{alexandru_intrinsically_2023,
+          author = {Alexandru, Cass},
+          title = {Intrinsically correct sorting using bialgebraic semantics},
+          institution = {Radboud University},
+          type = {mathesis},
+          year = {2023},
+          file = {https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf},
+          url = {https://www.cs.ru.nl/masters-theses#2023},
+          }
+  ```
+  </details>
 
 * ["Specifying Loops with Contracts"](https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf). Bachelor's thesis, LMU Munich, 2019.
-BibLaTex entry:
-```biblatex
-@thesis{alexandru_specifying_2019,
-        author = {Alexandru, Cass},
-        title = {Specifying Loops with Contracts},
-        subtitle = {Reasoning about loops as recursive procedures},
-        institution = {LMU Munich},
-        type = {bathesis},
-        year = {2019},
-        file = {https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf},
-        url = {https://www.sosy-lab.org/research/bib/Year/2019.html#AlexandruLoopContracts}
-        }
-```
+  <details><summary>BibLaTex</summary>
+  ```biblatex
+  @thesis{alexandru_specifying_2019,
+          author = {Alexandru, Cass},
+          title = {Specifying Loops with Contracts},
+          subtitle = {Reasoning about loops as recursive procedures},
+          institution = {LMU Munich},
+          type = {bathesis},
+          year = {2019},
+          file = {https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf},
+          url = {https://www.sosy-lab.org/research/bib/Year/2019.html#AlexandruLoopContracts}
+          }
+  ```
+  </details>
 
 ## Unpublished Notes
 
