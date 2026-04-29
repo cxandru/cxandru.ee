@@ -20,23 +20,16 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 ## Papers
 
 * Cass Alexandru, Henning Urbat, Thorsten Wißmann : ["Intrinsically Correct Algorithms and Recursive Coalgebras"](https://pldi26.sigplan.org/details/pldi-2026-papers/66/Intrinsically-Correct-Algorithms-and-Recursive-Coalgebras). PLDI 2026.
-
 * Cass Alexandru, Vikraman Choudhury, Jurriaan Rot, Niels van der Weide: ["Intrinsically Correct Sorting in Cubical Agda"](https://dl.acm.org/doi/abs/10.1145/3703595.3705873). CPP 2025.
 
 ## Talks
 
 * ["Intrinsically Recursive Coalgebras"](./artefacts/fpdag26_cxandru.pdf). [FP Dag 2026](https://fpday26.cs.ru.nl/).
-
-* ["Intrinsically Correct Sorting in Cubical Agda"](./artefacts/cpp25_talk_slides.pdf). CPP 2025.
-<!-- TODO: Link Recording once online -->
-
+* ["Intrinsically Correct Sorting in Cubical Agda"](./artefacts/cpp25_talk_slides.pdf), [Recording](https://youtu.be/y-oaO_6o6ug). CPP 2025.
 * ["Natural transformations as business logics: An operational intuition"](./artefacts/fpdag25_cxandru.pdf). [FP Dag 2025](https://people.cs.kuleuven.be/~tom.schrijvers/fpdag2025/). [Updated slides](./artefacts/nat_trans_op_sem_v0.1.pdf)
-
 * ["Intrinsically correct sorting using bialgebraic semantics"](https://spli.scot/splv/2024-strathclyde/lightning.html). SPLV 2024 lightning talk.
-
 * ["When the Types Align: A coincidence of total and partial correctness with a slice of cubical Agda"](./artefacts/DistrLaw.pdf). [Dutch FP Day 2024](https://www.tudelft.nl/fpday-2024-1).
-
-* ["Structured Traversals for (Mutually) Recursive Algebraic Data Types"](https://munihac.de/2022.html#CassAlexandru). Munihac 2022.
+* ["Structured Traversals for (Mutually) Recursive Algebraic Data Types"](https://munihac.de/2022.html#CassAlexandru), [Recording](https://youtu.be/Xk_inDd0Pgk). Munihac 2022.
 
 ## Theses
 
