@@ -47,7 +47,6 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
           }
   ```
   </details>
-
 * ["Specifying Loops with Contracts"](https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf). Bachelor's thesis, LMU Munich, 2019.
   <details><summary>BibLaTex</summary>
   ```biblatex
