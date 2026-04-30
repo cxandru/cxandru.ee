@@ -6,10 +6,26 @@ heading: '<img alt="The letters 64 in silver characters, around which a silver c
 I am a PhD student at the [Working Group Programming Languages](https://pl.informatik.uni-kl.de/homepage/en/staff/CassAlexandru/) at the RPTU Kaiserslautern-Landau, supervised by [Ralf Hinze](https://pl.cs.uni-kl.de/homepage/en/staff/RalfHinze/). I am co-supervised by [Jurriaan Rot](https://jurriaan.creativecode.org/) and [Niels van der Weide](https://nmvdw.github.io/), both at Radboud University Nijmegen. I will be available for Post-Docs starting around Fall 2027.
 My current research topic is the application of categorical semantics of (dependent) type theory to writing intrinsically correct total algorithms using structured recursion. More specifically, I am investigating _recursive coalgebras_ and _algorithmic duality_.
 
-More broadly, I'm interested in the application of the full breadth of the theoretical arsenal to the problem of designing theoretically rigorous and ergonomic verified functional programming languages, including but not limited to: <br/>
-datatype-generic programming, recursion schemes, cubical and directed type theory, substructural type systems, EDSLs, compiler construction, staged compilation, decision procedures, editor-time codegen/annotation, SMT, ATPs, proof/program synthesis
+More broadly, I am interested in the application of the full breadth of the theoretical arsenal to the problem of designing theoretically rigorous and ergonomic verified functional programming languages, including but not limited to:
 
-## Online presence
+* datatype-generic programming
+* recursion schemes
+* cubical and directed type theory
+* substructural type systems
+* embedded domain-specific languages
+* compiler construction
+* staged compilation
+* SMT, ATP & decision procedures
+* editor-time code generation & annotation
+* proof/program synthesis
+
+Further areas I am interested in:
+
+* generative (property-based) testing, combinatorial species
+* recursive definition as a principle
+* symmetry-elimination for state-space reduction in ATP
+
+## Online presence / contact
 
 I go by `cxandru` on most online forums, and also use the same profile icon everywhere, so I should be relatively easy to spot. My accounts on selected forums:
 
@@ -19,7 +35,7 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 
 ## Papers
 
-* Cass Alexandru, Henning Urbat, Thorsten Wißmann : ["Intrinsically Correct Algorithms and Recursive Coalgebras"](https://pldi26.sigplan.org/details/pldi-2026-papers/66/Intrinsically-Correct-Algorithms-and-Recursive-Coalgebras). PLDI 2026.
+* Cass Alexandru, Henning Urbat, Thorsten Wißmann : ["Intrinsically Correct Algorithms and Recursive Coalgebras"](https://pldi26.sigplan.org/details/pldi-2026-papers/66/Intrinsically-Correct-Algorithms-and-Recursive-Coalgebras). [Agda library](https://git8.cs.fau.de/software/intrinsically-recursive/). PLDI 2026.
 * Cass Alexandru, Vikraman Choudhury, Jurriaan Rot, Niels van der Weide: ["Intrinsically Correct Sorting in Cubical Agda"](https://dl.acm.org/doi/abs/10.1145/3703595.3705873). CPP 2025.
 
 ## Talks
