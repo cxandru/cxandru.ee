@@ -15,6 +15,7 @@ I go by `cxandru` on most online forums, and also use the same profile icon ever
 
 * Mastodon: <a rel="me" href="https://types.pl/@cxandru">@cxandru@types.pl</a>
 * Github: [cxandru](https://github.com/cxandru/)
+* Mail: `(\(f,l) -> f.l@cs.rptu.de) "c" "alexandru"`
 
 ## Papers
 
