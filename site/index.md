@@ -1,6 +1,6 @@
 ---
 title: "Cass Alexandru (they/them)"
-heading: '<img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a thicker blue round letter C" src="./assets/c64_128_alpha.png" style="vertical-align: middle"> Cass Alexandru (they/them)'
+heading: '<h1 style="display: flex; align-items: center; gap: 0.5rem;"><img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a thicker blue round letter C" src="./assets/c64_128.png" srcset="./assets/c64_128.png 128w, ./assets/c64_256.png 256w, ./assets/c64_512.png 512w, ./assets/c64_1024.png 1024w" sizes="9.6rem" style="height: 9.6rem; width: auto;"><span style="display: flex; flex-direction: column; align-items: center; gap: 0.2rem;"><span>Cass Alexandru (they/them)</span><span style="font-size: 1.1rem; line-height: 1;"><code>(\\(f,l) -> f.l@cs.rptu.de) "c" "alexandru"</code></span></span></h1>'
 ---
 
 <img alt="Photo of Cass Alexandru" src="https://pl.cs.uni-kl.de/homepage/staff/CassAlexandru/CassAlexandru.jpg" style="border-radius: 50%; height: 12rem; width: auto; object-fit: cover; float: right; margin-left: 1rem; margin-bottom: 1rem;">
