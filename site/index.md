@@ -3,6 +3,8 @@ title: "Cass Alexandru (they/them)"
 heading: '<img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a thicker blue round letter C" src="./assets/c64_128_alpha.png" style="vertical-align: middle"> Cass Alexandru (they/them)'
 ---
 
+<img alt="Photo of Cass Alexandru" src="https://pl.cs.uni-kl.de/homepage/staff/CassAlexandru/CassAlexandru.jpg" style="border-radius: 50%; height: 12rem; width: auto; object-fit: cover; float: right; margin-left: 1rem; margin-bottom: 1rem;">
+
 I am a PhD student at the [Working Group Programming Languages](https://pl.informatik.uni-kl.de/homepage/en/staff/CassAlexandru/) at the RPTU Kaiserslautern-Landau, supervised by [Ralf Hinze](https://pl.cs.uni-kl.de/homepage/en/staff/RalfHinze/). I am co-supervised by [Jurriaan Rot](https://jurriaan.creativecode.org/) and [Niels van der Weide](https://nmvdw.github.io/), both at Radboud University Nijmegen. I will be available for Post-Docs starting around Fall 2027.
 My current research topic is the application of categorical semantics of (dependent) type theory to writing intrinsically correct total algorithms using structured recursion. More specifically, I am investigating _recursive coalgebras_ and _algorithmic duality_.
 
