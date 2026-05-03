@@ -7,15 +7,35 @@
         <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Cass Alexandru (they/them)</title>
+        <style>
+summary>h2{display:inline;margin:0}summary:has(>h2){font-size:2.2rem;line-height:1}
+section p{width:55%}section dl,section ol,section ul{width:50%;-webkit-padding-start:5%}
+footer.site-footer{border-top:1px solid #ccc;margin-top:3rem;padding:1.5rem 0;text-align:center;font-size:1rem;color:#888;letter-spacing:.05em;width:55%}
+footer.site-footer a{color:#888;text-decoration:none;margin:0 .75rem}
+footer.site-footer a:hover{color:#111}
+@media(prefers-color-scheme:dark){footer.site-footer a:hover{color:#ddd}}
+pre.biblatex>code{width:100%}
+pre.biblatex{position:relative;cursor:pointer}
+pre.biblatex::after{content:'';position:absolute;top:.5rem;right:.5rem;width:1.2rem;height:1.2rem;background:url(./assets/clipboard.svg) no-repeat center/contain;opacity:.3;transition:opacity .2s}
+pre.biblatex:hover::after{opacity:.7}
+pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:none;font-size:.8rem;color:#888}
+        </style>
         <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     </head>
 
     <body>
         <div id="content">
             <article>
-                                  <h1><img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a thicker blue round letter C" src="./assets/c64_128_alpha.png" style="vertical-align: middle">
-Cass Alexandru (they/them)</h1>
+                                  <h1 style="display: flex; align-items: center; gap: 0.5rem;"><br />
+                                  <img alt="The letters 64 in silver characters, around which a silver circle, surrounded by a thicker blue round letter C" src="./assets/c64_128.png" srcset="./assets/c64_128.png 128w, ./assets/c64_256.png 256w, ./assets/c64_512.png 512w, ./assets/c64_1024.png 1024w" sizes="9.6rem" style="height: 9.6rem; width: auto;"><span
+                                  style="display: flex; flex-direction: column; align-items: center; gap: 0.2rem;"><span>Cass
+                                  Alexandru (they/them)</span><span
+                                  style="font-size: 1.1rem; line-height: 1;"><code>(\(f,l)
+                                  -&gt; f.l@cs.rptu.de) “c”
+                                  “alexandru”</code></span></span><br />
+                                  </h1>
                                                                 <section>
+                    <p><img alt="Photo of Cass Alexandru" src="https://pl.cs.uni-kl.de/homepage/staff/CassAlexandru/CassAlexandru.jpg" style="border-radius: 50%; height: 12rem; width: auto; object-fit: cover; float: right; margin-left: 1rem; margin-bottom: 1rem;"></p>
                     <p>I am a PhD student at the <a
                     href="https://pl.informatik.uni-kl.de/homepage/en/staff/CassAlexandru/">Working
                     Group Programming Languages</a> at the RPTU
@@ -33,11 +53,15 @@ Cass Alexandru (they/them)</h1>
                     specifically, I am investigating <em>recursive
                     coalgebras</em> and <em>algorithmic
                     duality</em>.</p>
-                    <p>More broadly, I am interested in the application
-                    of the full breadth of the theoretical arsenal to
-                    the problem of designing theoretically rigorous and
-                    ergonomic verified functional programming languages,
-                    including but not limited to:</p>
+                    <details>
+                    <summary>
+                    <h2 id="research-interests">Research Interests</h2>
+                    </summary>
+                    <p>I am interested in the application of the full
+                    breadth of the theoretical arsenal to the problem of
+                    designing theoretically rigorous and ergonomic
+                    verified functional programming languages, including
+                    but not limited to:</p>
                     <ul>
                     <li>datatype-generic programming</li>
                     <li>recursion schemes</li>
@@ -59,25 +83,11 @@ Cass Alexandru (they/them)</h1>
                     <li>symmetry-elimination for state-space reduction
                     in ATP</li>
                     </ul>
-                    <h2 id="online-presence-contact">Online presence /
-                    contact</h2>
-                    <p>I go by <code>cxandru</code> on most online
-                    forums, and also use the same profile icon
-                    everywhere, so I should be relatively easy to spot.
-                    My accounts on selected forums:</p>
-                    <ul>
-                    <li>Mastodon:
-                    <a rel="me" href="https://types.pl/@cxandru"><span
-                    class="citation"
-                    data-cites="cxandru">@cxandru</span><span
-                    class="citation"
-                    data-cites="types.pl">@types.pl</span></a></li>
-                    <li>Github: <a
-                    href="https://github.com/cxandru/">cxandru</a></li>
-                    <li>Mail:
-                    <code>(\(f,l) -&gt; f.l@cs.rptu.de) "c" "alexandru"</code></li>
-                    </ul>
+                    </details>
+                    <details>
+                    <summary>
                     <h2 id="papers">Papers</h2>
+                    </summary>
                     <ul>
                     <li>Cass Alexandru, Henning Urbat, Thorsten Wißmann
                     : <a
@@ -87,10 +97,14 @@ Cass Alexandru (they/them)</h1>
                     library</a>. PLDI 2026.</li>
                     <li>Cass Alexandru, Vikraman Choudhury, Jurriaan
                     Rot, Niels van der Weide: <a
-                    href="https://dl.acm.org/doi/abs/10.1145/3703595.3705873">“Intrinsically
+                    href="https://dl.acm.%20org/doi/abs/10.1145/3703595.3705873">“Intrinsically
                     Correct Sorting in Cubical Agda”</a>. CPP 2025.</li>
                     </ul>
+                    </details>
+                    <details>
+                    <summary>
                     <h2 id="talks">Talks</h2>
+                    </summary>
                     <ul>
                     <li><a
                     href="./artefacts/fpdag26_cxandru.pdf">“Intrinsically
@@ -126,7 +140,11 @@ Cass Alexandru (they/them)</h1>
                     href="https://youtu.be/Xk_inDd0Pgk">Recording</a>.
                     Munihac 2022.</li>
                     </ul>
+                    </details>
+                    <details>
+                    <summary>
                     <h2 id="theses">Theses</h2>
+                    </summary>
                     <ul>
                     <li><a
                     href="https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf">“Intrinsically
@@ -136,15 +154,15 @@ Cass Alexandru (they/them)</h1>
                     <summary>
                     BibLaTex
                     </summary>
-                    <pre class="biblatex"><code>@thesis{alexandru_intrinsically_2023,
-        author = {Alexandru, Cass},
-        title = {Intrinsically correct sorting using bialgebraic semantics},
-        institution = {Radboud University},
-        type = {mathesis},
-        year = {2023},
-        file = {https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf},
-        url = {https://www.cs.ru.nl/masters-theses#2023},
-        }</code></pre>
+                    <pre class="biblatex"><code> @thesis{alexandru_intrinsically_2023,
+         author = {Alexandru, Cass},
+         title = {Intrinsically correct sorting using bialgebraic semantics},
+         institution = {Radboud University},
+         type = {mathesis},
+         year = {2023},
+         file = {https://www.cs.ru.nl/masters-theses/2023/C_Alexandru___Intrinsically_correct_sorting_using_bialgebraic_semantics.pdf},
+         url = {https://www.cs.ru.nl/masters-theses#2023},
+         }</code></pre>
                     </details></li>
                     <li><a
                     href="https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf">“Specifying
@@ -154,19 +172,97 @@ Cass Alexandru (they/them)</h1>
                     <summary>
                     BibLaTex
                     </summary>
-                    <pre class="biblatex"><code>@thesis{alexandru_specifying_2019,
-        author = {Alexandru, Cass},
-        title = {Specifying Loops with Contracts},
-        subtitle = {Reasoning about loops as recursive procedures},
-        institution = {LMU Munich},
-        type = {bathesis},
-        year = {2019},
-        file = {https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf},
-        url = {https://www.sosy-lab.org/research/bib/Year/2019.html#AlexandruLoopContracts}
-        }</code></pre>
+                    <pre class="biblatex"><code> @thesis{alexandru_specifying_2019,
+         author = {Alexandru, Cass},
+         title = {Specifying Loops with Contracts},
+         subtitle = {Reasoning about loops as recursive procedures},
+         institution = {LMU Munich},
+         type = {bathesis},
+         year = {2019},
+         file = {https://www.sosy-lab.org/research/bsc/2019.Alexandru.Specifying_Loops_With_Contracts.pdf},
+         url = {https://www.sosy-lab.org/research/bib/Year/2019.html#AlexandruLoopContracts}
+         }</code></pre>
                     </details></li>
                     </ul>
+                    </details>
+                    <details>
+                    <summary>
+                    <h2 id="teaching">Teaching</h2>
+                    </summary>
+                    <p>I have been a course assistant for the following
+                    courses:</p>
+                    <ul>
+                    <li><a
+                    href="https://modhb.rptu.de/mhb/modules/INF-02-04-M-2/">Formal
+                    Languages and Computability</a> (SS24, SS25,
+                    SS26)</li>
+                    <li><a
+                    href="https://modhb.rptu.de/mhb/modules/INF-02-01-M-2/">Concepts
+                    of Programming</a> (WS24, WS25)</li>
+                    </ul>
+                    <p>I have been a group supervisor for the following
+                    courses:</p>
+                    <ul>
+                    <li><a
+                    href="https://modhb.uni-kl.de/mhb/modules/INF-32-82-M-7/">Software
+                    Engineering Practical</a> (SS25, SS26)</li>
+                    <li><a
+                    href="https://modhb.uni-kl.de/mhb/courses/INF-33-72-K-7/">Software
+                    Engineering Seminar</a> (WS25: <a
+                    href="https://pl.cs.uni-kl.de/homepage/de/teaching/ws25/seminar/">Functional
+                    Pearls</a> ; WS24: <a
+                    href="https://pl.cs.uni-kl.de/homepage/de/teaching/ws24/seminar/">Proof
+                    Assistants</a>; WS23: <a
+                    href="https://pl.cs.uni-kl.de/homepage/de/teaching/ws23/seminar/">Functional
+                    Data Structures</a>)</li>
+                    </ul>
+                    <p>During my (under)graduate studies, I was a TA for
+                    the following courses:</p>
+                    <ul>
+                    <li>Radboud University: <a
+                    href="https://www.ru.nl/courseguides/science/vm/osirislinks/ibc/nwi-ibc040/">Functional
+                    Programming</a> (WS20, WS21, WS22), <a
+                    href="https://www.ru.nl/studiegids/science/vm/osirislinks/ip/nwi-ipi005/">Object
+                    Oriented Programming</a> (SS20, SS21, SS22), <a
+                    href="https://www.ru.nl/courseguides/science/vm/osirislinks/ibc/nwi-ibc040/">Algorithms
+                    and Datastructures</a> (WS22), <a
+                    href="https://www.ru.nl/osiris-student/OnderwijsCatalogusSelect.do?selectie=cursus&amp;taal=en&amp;collegejaar=2023&amp;cursus=nwi-ibc028">Complexity</a>
+                    (SS22)</li>
+                    <li>LMU Munich: <a
+                    href="https://www.tcs.ifi.lmu.de/lehre/ws-2017-18/eip">Introduction
+                    to Programming</a> (WS17), <a
+                    href="https://www.tcs.ifi.lmu.de/lehre/ss-2018/promo">Programming
+                    and Modeling</a> (SS18, <a
+                    href="https://www.tcs.ifi.lmu.de/lehre/ss-2019/promo">SS19</a>)</li>
+                    </ul>
+                    <p>I was also a project supervisor for the following
+                    courses:</p>
+                    <ul>
+                    <li>RU : <a
+                    href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/nwi-ipi004-logic-applications/">Logic
+                    and Applications</a> (SS22); LMU : <a
+                    href="https://www.tcs.ifi.lmu.de/lehre/ws-2018-19/sep">Software
+                    Engineering Practical Course</a> (WS18)</li>
+                    </ul>
+                    </details>
+                    <details>
+                    <summary>
+                    <h2 id="supervised-theses">Supervised Theses</h2>
+                    </summary>
+                    <p>I was the working supervisor for the following
+                    theses:</p>
+                    <ul>
+                    <li>[M.Sc.] A.K.M. Shabab (2026): <a
+                    href="./artefacts/shabab_msc.pdf">“Studying
+                    Comparison-Based Sorting via Decision Trees –
+                    Generation, Visualization, and Algorithmic
+                    Properties”</a></li>
+                    </ul>
+                    </details>
+                    <details>
+                    <summary>
                     <h2 id="service">Service</h2>
+                    </summary>
                     <p>I serve as the main PhD student representative in
                     the RPTU senate for Kaiserslautern in the academic
                     year 2025-26 <a
@@ -175,7 +271,11 @@ Cass Alexandru (they/them)</h1>
                     computer science in 2024-25, and again in 2025-26 <a
                     href="https://www.cs.rptu.de/aktuelles/wahl-dr-2024/">(link)</a>.
                     <!-- I have reviewed submissions for [LICS 2026].--></p>
+                    </details>
+                    <details>
+                    <summary>
                     <h2 id="unpublished-notes">Unpublished Notes</h2>
+                    </summary>
                     <ul>
                     <li><a
                     href="./artefacts/bialgebraic_semantics_report.pdf">“Bialgebraic
@@ -185,9 +285,45 @@ Cass Alexandru (they/them)</h1>
                     by cxandru · Pull Request #362 ·
                     agda/agda-categories</a></li>
                     </ul>
+                    </details>
+                    <details>
+                    <summary>
+                    <h2 id="online-presence">Online presence</h2>
+                    </summary>
+                    <p>I go by <code>cxandru</code> on most online
+                    forums, and also use the same profile icon
+                    everywhere, so I should be relatively easy to spot.
+                    My accounts on selected forums:</p>
+                    <ul>
+                    <li>Mastodon:
+                    <a rel="me" href="https://types.pl/@cxandru"><span
+                    class="citation"
+                    data-cites="cxandru">@cxandru</span><span
+                    class="citation"
+                    data-cites="types.pl">@types.pl</span></a></li>
+                    <li>Github: <a
+                    href="https://github.com/cxandru/">cxandru</a></li>
+                    </ul>
+                    </details>
                 </section>
             </article>
+            <footer class="site-footer">  <!-- https://simpleicons.org/ -->
+                <a rel="me" href="https://types.pl/@cxandru" aria-label="Mastodon"><img src="./assets/mastodon.svg" alt="Mastodon" width="24" height="24"></a>
+                <a href="https://github.com/cxandru" aria-label="GitHub"><img src="./assets/github.svg" alt="GitHub" width="24" height="24"></a>
+                <a href="https://scholar.google.de/citations?user=5uaOCrEAAAAJ" aria-label="Google Scholar"><img src="./assets/google-scholar.svg" alt="Google Scholar" width="24" height="24"></a>
+                <a href="https://orcid.org/0009-0008-5210-2873" aria-label="ORCID"><img src="./assets/orcid.svg" alt="ORCID" width="24" height="24"></a>
+            </footer>
         </div>
+        <script>
+document.querySelectorAll('pre.biblatex').forEach(function(pre) {
+    pre.addEventListener('click', function() {
+        navigator.clipboard.writeText(pre.querySelector('code').textContent).then(function() {
+            pre.classList.add('copied');
+            setTimeout(function() { pre.classList.remove('copied'); }, 1500);
+        });
+    });
+});
+        </script>
     </body>
 
 </html>
