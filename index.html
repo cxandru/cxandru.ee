@@ -23,7 +23,9 @@ pre.biblatex{position:relative;cursor:pointer}
 pre.biblatex::after{content:'';position:absolute;top:.5rem;right:.5rem;width:1.2rem;height:1.2rem;background:url(./assets/clipboard.svg) no-repeat center/contain;opacity:.3;transition:opacity .2s}
 pre.biblatex:hover::after{opacity:.7}
 pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:none;font-size:.8rem;color:#888}
-@media(max-width:760px){section p,footer.site-footer{width:100%}section dl,section ol,section ul{width:90%}}
+.collapse-btn{display:block;width:55%;text-align:center;margin:1rem 0;background:none;border:none;cursor:pointer;opacity:.4;transition:opacity .2s}
+.collapse-btn:hover{opacity:.8}
+@media(max-width:760px){section p,footer.site-footer,.collapse-btn{width:100%}section dl,section ol,section ul{width:90%}}
         </style>
         <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     </head>
@@ -320,6 +322,18 @@ pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:n
             </footer>
         </div>
         <script>
+document.querySelectorAll('section > details').forEach(function(details) {
+    var btn = document.createElement('button');
+    btn.className = 'collapse-btn';
+    var img = document.createElement('img');
+    img.src = './assets/keyboard_arrow_up.svg';
+    img.alt = 'Collapse';
+    img.width = 24;
+    img.height = 24;
+    btn.appendChild(img);
+    btn.addEventListener('click', function() { details.open = false; });
+    details.appendChild(btn);
+});
 document.querySelectorAll('pre.biblatex').forEach(function(pre) {
     pre.addEventListener('click', function() {
         navigator.clipboard.writeText(pre.querySelector('code').textContent).then(function() {
