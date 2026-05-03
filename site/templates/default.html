@@ -14,6 +14,11 @@ footer.site-footer{border-top:1px solid #ccc;margin-top:3rem;padding:1.5rem 0;te
 footer.site-footer a{color:#888;text-decoration:none;margin:0 .75rem}
 footer.site-footer a:hover{color:#111}
 @media(prefers-color-scheme:dark){footer.site-footer a:hover{color:#ddd}}
+pre.biblatex>code{width:100%}
+pre.biblatex{position:relative;cursor:pointer}
+pre.biblatex::after{content:'';position:absolute;top:.5rem;right:.5rem;width:1.2rem;height:1.2rem;background:url(./assets/clipboard.svg) no-repeat center/contain;opacity:.3;transition:opacity .2s}
+pre.biblatex:hover::after{opacity:.7}
+pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:none;font-size:.8rem;color:#888}
         </style>
         <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     </head>
@@ -43,6 +48,16 @@ footer.site-footer a:hover{color:#111}
                 <a href="https://orcid.org/0009-0008-5210-2873" aria-label="ORCID"><img src="./assets/orcid.svg" alt="ORCID" width="24" height="24"></a>
             </footer>
         </div>
+        <script>
+document.querySelectorAll('pre.biblatex').forEach(function(pre) {
+    pre.addEventListener('click', function() {
+        navigator.clipboard.writeText(pre.querySelector('code').textContent).then(function() {
+            pre.classList.add('copied');
+            setTimeout(function() { pre.classList.remove('copied'); }, 1500);
+        });
+    });
+});
+        </script>
     </body>
 
 </html>
