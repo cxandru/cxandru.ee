@@ -65,7 +65,7 @@ document.querySelectorAll('section > details').forEach(function(details) {
     img.width = 24;
     img.height = 24;
     btn.appendChild(img);
-    btn.addEventListener('click', function() { details.open = false; });
+    btn.addEventListener('click', function() { details.open = false; details.scrollIntoView({behavior:'smooth'}); });
     details.appendChild(btn);
 });
 document.querySelectorAll('pre.biblatex').forEach(function(pre) {
