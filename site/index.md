@@ -46,6 +46,7 @@ Further areas I am interested in:
   <summary>
 ## Talks
   </summary>
+* ["Intrinsically Recursive Coalgebras"](./artefacts/types26_cxandru.pdf). [TYPES 2026](https://types2026.cse.chalmers.se/accepted.html).
 * ["Intrinsically Recursive Coalgebras"](./artefacts/fpdag26_cxandru.pdf). [FP Dag 2026](https://fpday26.cs.ru.nl/).
 * ["Intrinsically Correct Sorting in Cubical Agda"](./artefacts/cpp25_talk_slides.pdf), [Recording](https://youtu.be/y-oaO_6o6ug). CPP 2025.
 * ["Natural transformations as business logics: An operational intuition"](./artefacts/fpdag25_cxandru.pdf). [FP Dag 2025](https://people.cs.kuleuven.be/~tom.schrijvers/fpdag2025/). [Updated slides](./artefacts/nat_trans_op_sem_v0.1.pdf)
