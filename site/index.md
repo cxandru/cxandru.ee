@@ -46,6 +46,8 @@ Further areas I am interested in:
   <summary>
 ## Talks
   </summary>
+* ["Intrinsically Correct Algorithms and Recursive Coalgebras"](./artefacts/pldi26_intr-rec-coalgs.pdf). PLDI 2026.
+<!-- TODO: Link recording when online -->
 * ["Intrinsically Recursive Coalgebras"](./artefacts/types26_cxandru.pdf). [TYPES 2026](https://types2026.cse.chalmers.se/accepted.html).
 * ["Intrinsically Recursive Coalgebras"](./artefacts/fpdag26_cxandru.pdf). [FP Dag 2026](https://fpday26.cs.ru.nl/).
 * ["Intrinsically Correct Sorting in Cubical Agda"](./artefacts/cpp25_talk_slides.pdf), [Recording](https://youtu.be/y-oaO_6o6ug). CPP 2025.
