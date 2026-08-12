@@ -10,20 +10,26 @@
         <style>
 summary{list-style:none}
 summary::-webkit-details-marker{display:none}
-summary::before{content:'';display:inline-block;width:1em;height:1em;background:url(./assets/keyboard_arrow_right.svg) no-repeat center/contain;vertical-align:middle;margin-right:.3rem}
-details[open]>summary::before{background-image:url(./assets/keyboard_arrow_down.svg)}
+summary::before{content:'';display:inline-block;width:1em;height:1em;background-color:currentColor;-webkit-mask:url(./assets/keyboard_arrow_right.svg) no-repeat center/contain;mask:url(./assets/keyboard_arrow_right.svg) no-repeat center/contain;vertical-align:middle;margin-right:.3rem}
+details[open]>summary::before{-webkit-mask-image:url(./assets/keyboard_arrow_down.svg);mask-image:url(./assets/keyboard_arrow_down.svg)}
 summary>h2{display:inline;margin:0}summary:has(>h2){font-size:2.2rem;line-height:1}
 section p{width:55%}section dl,section ol,section ul{width:50%;-webkit-padding-start:5%}
 footer.site-footer{border-top:1px solid #ccc;margin-top:3rem;padding:1.5rem 0;text-align:center;font-size:1rem;color:#888;letter-spacing:.05em;width:55%}
 footer.site-footer a{color:#888;text-decoration:none;margin:0 .75rem;background:none;text-shadow:none}
+footer.site-footer .icon{display:inline-block;width:24px;height:24px;vertical-align:middle;background-color:currentColor;-webkit-mask:var(--icon) center/contain no-repeat;mask:var(--icon) center/contain no-repeat}
+.i-mastodon{--icon:url(./assets/mastodon.svg)}
+.i-github{--icon:url(./assets/github.svg)}
+.i-scholar{--icon:url(./assets/google-scholar.svg)}
+.i-orcid{--icon:url(./assets/orcid.svg)}
 footer.site-footer a:hover{color:#111}
 @media(prefers-color-scheme:dark){footer.site-footer a:hover{color:#ddd}}
 pre.biblatex>code{width:100%}
 pre.biblatex{position:relative;cursor:pointer}
-pre.biblatex::after{content:'';position:absolute;top:.5rem;right:.5rem;width:1.2rem;height:1.2rem;background:url(./assets/clipboard.svg) no-repeat center/contain;opacity:.3;transition:opacity .2s}
+pre.biblatex::after{content:'';position:absolute;top:.5rem;right:.5rem;width:1.2rem;height:1.2rem;background-color:currentColor;-webkit-mask:url(./assets/clipboard.svg) no-repeat center/contain;mask:url(./assets/clipboard.svg) no-repeat center/contain;opacity:.3;transition:opacity .2s}
 pre.biblatex:hover::after{opacity:.7}
-pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:none;font-size:.8rem;color:#888}
-.collapse-btn{display:block;width:55%;text-align:center;margin:1rem 0;background:none;border:none;cursor:pointer;opacity:.4;transition:opacity .2s}
+pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:none;-webkit-mask:none;mask:none;font-size:.8rem}
+.collapse-btn{display:block;width:55%;text-align:center;margin:1rem 0;background:none;border:none;cursor:pointer;opacity:.4;transition:opacity .2s;color:inherit}
+.collapse-btn::before{content:'';display:inline-block;width:24px;height:24px;vertical-align:middle;background-color:currentColor;-webkit-mask:url(./assets/keyboard_arrow_up.svg) center/contain no-repeat;mask:url(./assets/keyboard_arrow_up.svg) center/contain no-repeat}
 .collapse-btn:hover{opacity:.8}
 @media(max-width:760px){section p,footer.site-footer,.collapse-btn{width:100%}section dl,section ol,section ul{width:90%}h1{flex-wrap:wrap;justify-content:center}}
         </style>
@@ -287,6 +293,14 @@ pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:n
                     I served as the main PhD student representative for
                     computer science in 2024-25, and again in 2025-26 <a
                     href="https://www.cs.rptu.de/aktuelles/wahl-dr-2024/">(link)</a>.
+                    I served on the <a
+                    href="https://rptu.de/en/reach/about-us/the-assembly-of-delegates-the-committees-of-the-tu-nachwuchsring/committee-for-research-funding">research
+                    grant committee</a> and <a
+                    href="https://rptu.de/en/reach/about-us/the-assembly-of-delegates-the-committees-of-the-tu-nachwuchsring/committee-for-mobility-funding">research
+                    travel grant committee</a> of <a
+                    href="https://rptu.de/en/reach/home-page">REaCh</a>
+                    in the academic year 2024-25, and again in 2025-26.
+                    <!-- TODO Update w archive links when I leave -->
                     <!-- I have reviewed submissions for [LICS 2026].--></p>
                     </details>
                     <details>
@@ -325,22 +339,17 @@ pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:n
                 </section>
             </article>
             <footer class="site-footer">  <!-- https://simpleicons.org/ -->
-                <a rel="me" href="https://types.pl/@cxandru" aria-label="Mastodon"><img src="./assets/mastodon.svg" alt="Mastodon" width="24" height="24"></a>
-                <a href="https://github.com/cxandru" aria-label="GitHub"><img src="./assets/github.svg" alt="GitHub" width="24" height="24"></a>
-                <a href="https://scholar.google.de/citations?user=5uaOCrEAAAAJ" aria-label="Google Scholar"><img src="./assets/google-scholar.svg" alt="Google Scholar" width="24" height="24"></a>
-                <a href="https://orcid.org/0009-0008-5210-2873" aria-label="ORCID"><img src="./assets/orcid.svg" alt="ORCID" width="24" height="24"></a>
+                <a rel="me" href="https://types.pl/@cxandru" aria-label="Mastodon"><span class="icon i-mastodon"></span></a>
+                <a href="https://github.com/cxandru" aria-label="GitHub"><span class="icon i-github"></span></a>
+                <a href="https://scholar.google.de/citations?user=5uaOCrEAAAAJ" aria-label="Google Scholar"><span class="icon i-scholar"></span></a>
+                <a href="https://orcid.org/0009-0008-5210-2873" aria-label="ORCID"><span class="icon i-orcid"></span></a>
             </footer>
         </div>
         <script>
 document.querySelectorAll('section > details').forEach(function(details) {
     var btn = document.createElement('button');
     btn.className = 'collapse-btn';
-    var img = document.createElement('img');
-    img.src = './assets/keyboard_arrow_up.svg';
-    img.alt = 'Collapse';
-    img.width = 24;
-    img.height = 24;
-    btn.appendChild(img);
+    btn.setAttribute('aria-label', 'Collapse');
     btn.addEventListener('click', function() { details.open = false; details.scrollIntoView({behavior:'smooth'}); });
     details.appendChild(btn);
 });
