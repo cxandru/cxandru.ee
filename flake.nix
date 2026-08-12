@@ -11,6 +11,7 @@
       shell = pkgs.mkShell {
         buildInputs = [
           pkgs.pandoc
+          pkgs.python3
         ];
       };
     in

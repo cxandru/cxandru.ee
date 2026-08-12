@@ -37,6 +37,7 @@ $(OUT_DIR)/%.html: $(IN_DIR)/%.md $(TEMPLATE)
 	--output $@
 
 all: $(OUT_FONTS) $(OUT_STYLESHEET) $(OUT_ARTEFACTS) $(OUT_ASSETS) $(OUT_HTML) $(OUT_CNAME)
+	cd $(OUT_DIR) && python3 -m http.server
 
 .PHONY: deploy clean all
 
