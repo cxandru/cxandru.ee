@@ -134,7 +134,10 @@ I was the working supervisor for the following theses:
   <summary>
 ## Service
   </summary>
-I serve as the main PhD student representative in the RPTU senate for Kaiserslautern in the academic year 2025-26 [(link)](https://web.archive.org/web/20260111235943/https://rptu.de/ueber-die-rptu/organisation/hochschulgremien/doktorandenvertretung). I served as the main PhD student representative for computer science in 2024-25, and again in 2025-26 [(link)](https://www.cs.rptu.de/aktuelles/wahl-dr-2024/).  <!-- I have reviewed submissions for [LICS 2026].-->
+I serve as the main PhD student representative in the RPTU senate for Kaiserslautern in the academic year 2025-26 [(link)](https://web.archive.org/web/20260111235943/https://rptu.de/ueber-die-rptu/organisation/hochschulgremien/doktorandenvertretung).
+I served as the main PhD student representative for computer science in 2024-25, and again in 2025-26 [(link)](https://www.cs.rptu.de/aktuelles/wahl-dr-2024/).
+I served on the [research grant committee](https://rptu.de/en/reach/about-us/the-assembly-of-delegates-the-committees-of-the-tu-nachwuchsring/committee-for-research-funding) and [research travel grant committee](https://rptu.de/en/reach/about-us/the-assembly-of-delegates-the-committees-of-the-tu-nachwuchsring/committee-for-mobility-funding) of [REaCh](https://rptu.de/en/reach/home-page) in the academic year 2024-25, and again in 2025-26. <!-- TODO Update w archive links when I leave -->
+<!-- I have reviewed submissions for [LICS 2026].-->
 
 </details>
 
