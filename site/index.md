@@ -62,6 +62,7 @@ These are activities aimed at communicating insights from research to a wider co
 
 Talks:
 
+* Recursive Definitions. [CISPA Cysec Lab BWINF Winter Camp 2026](https://web.archive.org/web/20260612045105/https://bwinf.de/mehr-informatik/chancen/workshops/). Workshop organized for pupils participating in the German federal computer science competition.
 * ["Intrinsically Recursive Coalgebras"](./artefacts/fpdag26_cxandru.pdf). [FP Dag 2026](https://fpday26.cs.ru.nl/).
 * ["Natural transformations as business logics: An operational intuition"](./artefacts/fpdag25_cxandru.pdf). [FP Dag 2025](https://people.cs.kuleuven.be/~tom.schrijvers/fpdag2025/). [Updated slides](./artefacts/nat_trans_op_sem_v0.1.pdf)
 * ["When the Types Align: A coincidence of total and partial correctness with a slice of cubical Agda"](./artefacts/DistrLaw.pdf). [Dutch FP Day 2024](https://www.tudelft.nl/fpday-2024-1).
