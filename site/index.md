@@ -49,14 +49,26 @@ Further areas I am interested in:
 * ["Intrinsically Correct Algorithms and Recursive Coalgebras"](./artefacts/pldi26_intr-rec-coalgs.pdf). PLDI 2026.
 <!-- TODO: Link recording when online -->
 * ["Intrinsically Recursive Coalgebras"](./artefacts/types26_cxandru.pdf). [TYPES 2026](https://types2026.cse.chalmers.se/accepted.html).
-* ["Intrinsically Recursive Coalgebras"](./artefacts/fpdag26_cxandru.pdf). [FP Dag 2026](https://fpday26.cs.ru.nl/).
 * ["Intrinsically Correct Sorting in Cubical Agda"](./artefacts/cpp25_talk_slides.pdf), [Recording](https://youtu.be/y-oaO_6o6ug). CPP 2025.
 * ["Natural transformations as business logics: An operational intuition"](./artefacts/fpdag25_cxandru.pdf). [FP Dag 2025](https://people.cs.kuleuven.be/~tom.schrijvers/fpdag2025/). [Updated slides](./artefacts/nat_trans_op_sem_v0.1.pdf)
 * ["Intrinsically correct sorting using bialgebraic semantics"](https://spli.scot/splv/2024-strathclyde/lightning.html). SPLV 2024 lightning talk.
+</details>
+
+<details>
+  <summary>
+## Knowledge transfer & outreach
+  </summary>
+
+These are activities aimed at communicating insights from research to a wider community. FP Dag/Dutch Functional Programming day is a yearly meetup of academic and industry users of functional programming languages. MuniHac is a yearly meetup of Haskell enthusiasts.
+
+Talks:
+
+* ["Intrinsically Recursive Coalgebras"](./artefacts/fpdag26_cxandru.pdf). [FP Dag 2026](https://fpday26.cs.ru.nl/).
+* ["Natural transformations as business logics: An operational intuition"](./artefacts/fpdag25_cxandru.pdf). [FP Dag 2025](https://people.cs.kuleuven.be/~tom.schrijvers/fpdag2025/). [Updated slides](./artefacts/nat_trans_op_sem_v0.1.pdf)
 * ["When the Types Align: A coincidence of total and partial correctness with a slice of cubical Agda"](./artefacts/DistrLaw.pdf). [Dutch FP Day 2024](https://www.tudelft.nl/fpday-2024-1).
 * ["Structured Traversals for (Mutually) Recursive Algebraic Data Types"](https://munihac.de/2022.html#CassAlexandru), [Recording](https://youtu.be/Xk_inDd0Pgk). Munihac 2022.
-
 </details>
+
 <details>
   <summary>
 ## Theses
