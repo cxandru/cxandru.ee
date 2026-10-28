@@ -46,6 +46,7 @@ Further areas I am interested in:
   <summary>
 ## Academic Talks
   </summary>
+* ["Intrinsically Correct & Total Functional Programming Using Guarded Recursion"](./artefacts/alexandru_ictfp_dutchcats.pdf). [DutchCats (Amsterdam, 27.10.2026)](https://dutchcats.github.io/#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming%20Using%20Guarded%20Recursion)
 * ["Intrinsically Correct Algorithms and Recursive Coalgebras"](./artefacts/pldi26_intr-rec-coalgs.pdf). PLDI 2026.
 <!-- TODO: Link recording when online -->
 * ["Intrinsically Recursive Coalgebras"](./artefacts/types26_cxandru.pdf). [TYPES 2026](https://types2026.cse.chalmers.se/accepted.html).
