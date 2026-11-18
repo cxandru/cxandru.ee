@@ -46,7 +46,16 @@ Further areas I am interested in:
   <summary>
 ## Academic Talks
   </summary>
-* ["Intrinsically Correct & Total Functional Programming Using Guarded Recursion"](./artefacts/alexandru_ictfp_dutchcats.pdf). [DutchCats (Amsterdam, 27.10.2026)](https://dutchcats.github.io/#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming%20Using%20Guarded%20Recursion)
+* <details>
+  <summary>
+  ["Intrinsically Correct & Total Functional Programming Using Locally Contractive Functors"](./artefacts/alexandru_ictfp_dutchcats.pdf)
+  </summary>
+    * [DutchCats, 27.10.26](https://dutchcats.github.io/#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming%20Using%20Guarded%20Recursion)
+    * [TalTech Computer Science Theory Seminar, 12.11.26](https://niccoloveltri.github.io/tsem26/alexandru.html)
+    * [Nordic Workshop on Programming Theory (NWPT), 20.11.26](https://kodu.ut.ee/~nester/nwpt-2026/program.html#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming)
+    * [U of Edinburgh Laboratory for Foundations of Computer Science Seminar, 01.12.26](https://informatics.ed.ac.uk/lfcs/events/lfcs-seminars/lfcs-seminars-2026) <!-- TODO update link -->
+    * [Scottish Programming Languages Seminar, 02.12.26](https://spli.scot/spls/meetings/2026/december/#:~:text=Intrinsically%20correct%20%26%20total%20functional%20programming%20using%20locally%20contractive%20functors)
+  </details>
 * ["Intrinsically Correct Algorithms and Recursive Coalgebras"](./artefacts/pldi26_intr-rec-coalgs.pdf). PLDI 2026.
 <!-- TODO: Link recording when online -->
 * ["Intrinsically Recursive Coalgebras"](./artefacts/types26_cxandru.pdf). [TYPES 2026](https://types2026.cse.chalmers.se/accepted.html).
