@@ -44,6 +44,14 @@ Further areas I am interested in:
 
 <details>
   <summary>
+## Extended Abstracts
+  </summary>
+* Cass Alexandru, Steven Schaefer, Max S. New : ["Intrinsically Correct & Total Functional Programming Using Locally Contractive Functors"](https://kodu.ut.ee/~nester/nwpt-2026/program.html#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming). NWPT 2026.
+* Cass Alexandru, Henning Urbat, Thorsten Wißmann : ["Intrinsically Recursive Coalgebras"](https://types2026.cse.chalmers.se/accepted.html#:~:text=Intrinsically%20Recursive%20Coalgebras). TYPES 2026.
+</details>
+
+<details>
+  <summary>
 ## Academic Talks
   </summary>
 * <details>
