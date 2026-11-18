@@ -14,6 +14,7 @@ summary::before{content:'';display:inline-block;width:1em;height:1em;background-
 details[open]>summary::before{-webkit-mask-image:url(./assets/keyboard_arrow_down.svg);mask-image:url(./assets/keyboard_arrow_down.svg)}
 summary>h2{display:inline;margin:0}summary:has(>h2){font-size:2.2rem;line-height:1}
 section p{width:55%}section dl,section ol,section ul{width:50%;-webkit-padding-start:5%}
+section li dl,section li ol,section li ul{width:100%}
 footer.site-footer{border-top:1px solid #ccc;margin-top:3rem;padding:1.5rem 0;text-align:center;font-size:1rem;color:#888;letter-spacing:.05em;width:55%}
 footer.site-footer a{color:#888;text-decoration:none;margin:0 .75rem;background:none;text-shadow:none}
 footer.site-footer .icon{display:inline-block;width:24px;height:24px;vertical-align:middle;background-color:currentColor;-webkit-mask:var(--icon) center/contain no-repeat;mask:var(--icon) center/contain no-repeat}
@@ -116,15 +117,52 @@ pre.biblatex.copied::after{content:'Copied!';width:auto;height:auto;background:n
                     </details>
                     <details>
                     <summary>
+                    <h2 id="extended-abstracts">Extended Abstracts</h2>
+                    </summary>
+                    <ul>
+                    <li>Cass Alexandru, Steven Schaefer, Max S. New : <a
+                    href="https://kodu.ut.ee/~nester/nwpt-2026/program.html#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming">“Intrinsically
+                    Correct &amp; Total Functional Programming Using
+                    Locally Contractive Functors”</a>. NWPT 2026.</li>
+                    <li>Cass Alexandru, Henning Urbat, Thorsten Wißmann
+                    : <a
+                    href="https://types2026.cse.chalmers.se/accepted.html#:~:text=Intrinsically%20Recursive%20Coalgebras">“Intrinsically
+                    Recursive Coalgebras”</a>. TYPES 2026.</li>
+                    </ul>
+                    </details>
+                    <details>
+                    <summary>
                     <h2 id="academic-talks">Academic Talks</h2>
                     </summary>
                     <ul>
-                    <li><a
+                    <li><details>
+                    <summary>
+                    <a
                     href="./artefacts/alexandru_ictfp_dutchcats.pdf">“Intrinsically
                     Correct &amp; Total Functional Programming Using
-                    Guarded Recursion”</a>. <a
-                    href="https://dutchcats.github.io/#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming%20Using%20Guarded%20Recursion">DutchCats
-                    Amsterdam, 27.10.2026</a></li>
+                    Locally Contractive Functors”</a>
+                    </summary>
+                    <ul>
+                    <li><a
+                    href="https://dutchcats.github.io/#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming%20Using%20Guarded%20Recursion">DutchCats,
+                    27.10.26</a></li>
+                    <li><a
+                    href="https://niccoloveltri.github.io/tsem26/alexandru.html">TalTech
+                    Computer Science Theory Seminar, 12.11.26</a></li>
+                    <li><a
+                    href="https://kodu.ut.ee/~nester/nwpt-2026/program.html#:~:text=Cass%20Alexandru%3A%20Intrinsically%20Correct%20%26%20Total%20Functional%20Programming">Nordic
+                    Workshop on Programming Theory (NWPT),
+                    20.11.26</a></li>
+                    <li><a
+                    href="https://informatics.ed.ac.uk/lfcs/events/lfcs-seminars/lfcs-seminars-2026">U
+                    of Edinburgh Laboratory for Foundations of Computer
+                    Science Seminar, 01.12.26</a>
+                    <!-- TODO update link --></li>
+                    <li><a
+                    href="https://spli.scot/spls/meetings/2026/december/#:~:text=Intrinsically%20correct%20%26%20total%20functional%20programming%20using%20locally%20contractive%20functors">Scottish
+                    Programming Languages Seminar, 02.12.26</a></li>
+                    </ul>
+                    </details></li>
                     <li><a
                     href="./artefacts/pldi26_intr-rec-coalgs.pdf">“Intrinsically
                     Correct Algorithms and Recursive Coalgebras”</a>.
